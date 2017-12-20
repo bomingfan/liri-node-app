@@ -4,6 +4,8 @@
   "description": "",
   "main": "liri.js",
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "moment": "^2.20.1",
     "request": "^2.83.0",
     "twitter": "^1.7.1"
   },
