@@ -43,9 +43,10 @@ for (var i = 3; i < nameArray.length; i++) {
     nameString += nameArray[i];
   }
 }
-
 commandLine(commands, nameString);
 
+
+// function choosing the input in the command line
 function commandLine(commands, nameString) {
   if (commands === "my-tweets") {
     myTweets();
