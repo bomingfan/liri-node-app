@@ -55,7 +55,7 @@ function commandLine(commands, nameString) {
     if (nameString) {
       spotifyThisSong(nameString);
     } else {
-      spotifyThisSong("The Sign")
+      spotifyThisSong("Ace of Base")
     }
   }
   if (commands === "movie-this") {
